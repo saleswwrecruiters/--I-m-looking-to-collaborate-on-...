@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Header Background */
+        .header {
+            background-color: #171b28; /* Dark blue background */
+            color: #ffffff; /* White text color */
+            padding: 20px; /* Add padding */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Logo Text */
+        .logo-text {
+            font-size: 24px; /* Larger font size */
+            font-weight: bold; /* Bold text */
+            text-decoration: none;
+            color: #ffffff;
+        }
+
+        /* Navigation Links */
+        .nav-links ul {
+            list-style: none; /* Remove bullet points */
+            padding: 0; /* Remove default padding */
+            margin: 0;
+            display: flex;
+        }
+
+        .nav-links ul li {
+            margin-right: 20px; /* Add margin between links */
+        }
+
+        .nav-links ul li a {
+            color: #ffffff; /* White text color */
+            text-decoration: none; /* Remove underline */
+            font-size: 16px; /* Font size */
+        }
+
+        .nav-links ul li a:hover {
+            color: #ff8c00; /* Orange color on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <a class="logo-link" href="/">
+                <span class="logo-text">Worldwide flights</span>
+            </a>
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li><a href="/flights">Flights</a></li>
+                <li><a href="/hotels">Hotels</a></li>
+                <li><a href="https://wwrecruiters.co/visit-visa/">Visa</a></li>
+                <li><a href="http://www.wwrecruiters.co/contact-us">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
